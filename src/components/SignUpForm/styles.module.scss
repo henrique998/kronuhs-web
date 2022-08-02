@@ -1,0 +1,108 @@
+.modalOverlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modalContent {
+    position:  relative;
+
+    max-width: 35.75rem;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: var(--white);
+    padding: 4.5rem;
+    border-radius: 1rem;
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+
+        span {
+            color: var(--green-500);
+        }
+    }
+
+    form {
+        margin-top: 2.25rem;
+
+        display: grid;
+        gap: 1rem;
+
+        .inputGroup {
+            label {
+                color: var(--black-500);
+            }
+        }
+
+        button {
+            width: 100%;
+        }
+    }
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    line-height: 0;
+
+    svg {
+        color: var(--gray-200);
+        font-size: 1.25rem;
+    }
+}
+
+.or {
+    width: fit-content;
+    margin: 1.25rem auto;
+    color: var(--gray-300);
+    position: relative;
+    padding: 0 0.5rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: var(--gray-300);
+        width: 10rem;
+        height: 1px;
+        left: -10rem;
+        top: 50%;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: var(--gray-300);
+        width: 10rem;
+        height: 1px;
+        right: -10rem;
+        top: 50%;
+    }
+}
+
+.verifyContainer {
+    margin-top: 1rem;
+    color: var(--gray-300);
+    text-align: center;
+
+    .sign {
+        color: var(--green-500);
+        font-weight: 600;
+        margin-left: 0.25rem;
+    }
+}
+
+
+.messageErr {
+    color: var(--red-500);
+    margin-left: 1rem;
+}

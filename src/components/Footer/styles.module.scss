@@ -1,0 +1,64 @@
+.container {
+    background-color: var(--black-500);
+}
+
+.content {
+    max-width: 1280px;
+    padding: 5rem 2rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: initial;
+
+    .logo {
+        width: 9.6875rem;
+    }
+
+    h2,
+    h3 {
+        color: var(--white);
+        line-height: 80%;
+    }
+
+    h3 {
+        margin-top: 3.75rem;
+        font-weight: 400;
+    }
+
+    ul {
+        margin-top: 3.75rem;
+
+        li {
+
+            &+li {
+                margin-top: 20px;
+            }
+
+            a {
+                color: var(--white);
+            }
+        }
+    }
+}
+
+.formGroup {
+    margin-top: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+
+    button {
+        background-color: var(--green-500);
+        color: var(--white);
+        width: 4.625rem;
+        height: 2.8rem;
+        line-height: 0;
+        border-radius: 6px;
+
+        svg {
+            font-size: 1.5rem;
+        }
+    }
+}

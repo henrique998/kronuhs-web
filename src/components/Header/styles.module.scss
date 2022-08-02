@@ -1,0 +1,58 @@
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray-100);
+  background-color: var(--white);
+  
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1280px;
+  padding: 0 2rem;
+  margin: 0 auto;
+
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+}
+
+.profileContainer {
+  .profileAvatarWrapper {
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .profileAvatar {
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  
+    svg {
+      font-size: 2rem;
+      color: var(--gray-400);
+      cursor: pointer;
+    }
+
+  }
+
+}
+
+.buttons {
+  button + button {
+    margin-left: 1rem;
+  }
+}

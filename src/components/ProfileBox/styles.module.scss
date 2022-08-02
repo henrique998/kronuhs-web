@@ -1,0 +1,80 @@
+.container {
+    position: absolute;
+    z-index: 10;
+
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--white);
+    padding: 0.875rem 1rem;
+    width: 10rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 16px 9px rgba(245, 245, 245, 0.65);
+
+    display: grid;
+    gap: 1rem;
+}
+
+.uploadBox {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    
+    cursor: pointer;
+
+    &:hover {
+        svg {
+            fill: var(--green-500);
+        }
+
+        span {
+            color: var(--green-500);
+        }
+    }
+    
+    svg {
+        width: 1.875rem;
+        fill: var(--gray-400);
+    }
+
+    span {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--gray-400);
+    }
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray-200);
+}
+
+.loggoutBox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    cursor: pointer;
+
+    &:hover {
+        svg {
+            fill: var(--red-500);
+        }
+
+        span {
+            color: var(--red-500);
+        }
+    }
+
+    svg {
+        width: 1.675rem;
+        fill: var(--gray-400);
+    }
+
+    span {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--gray-400);
+    }
+}

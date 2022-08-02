@@ -1,0 +1,226 @@
+.banner {
+    width: 100%;
+    height: 33.125rem;
+    object-fit: cover;
+}
+
+.heading {
+    max-width: 1280px;
+    margin: 1.5rem auto 0;
+
+    .title { 
+        text-align: center;
+        line-height: 63px;
+    }
+    
+    .subtitle {
+        margin-top: 1.25rem;   
+
+        text-align: center;
+        color: var(--gray-400);
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.infos {
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--gray-400);
+    font-weight: 500;
+
+    .readTime {
+        &::after {
+            content: "•";
+            padding: 0 0.5rem;
+        }
+    }
+}
+
+.contentWrapper {
+    max-width: 1280px;
+    padding: 0 2rem;
+    margin: 4.375rem auto;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 3.25rem;
+
+    aside {
+        display: grid;
+        gap: 0.75rem;
+        border: 1px solid var(--gray-200);
+        padding: 1rem;
+        border-radius: 2rem;
+
+        button {
+            background-color: transparent;
+            border: none;
+            line-height: 0;
+
+            svg {
+                font-size: 1.5rem;
+                color: var(--gray-300);
+
+                transition: color .2s;
+            }
+
+            svg.clap:hover {
+                color: var(--green-500);
+            }
+
+            svg.clapActive {
+               fill: var(--green-500);
+            }
+        }
+
+        span {
+            text-align: center;
+            color: var(--gray-300);
+        }
+    }
+
+    article {
+        line-height: 36px;
+    }
+}
+
+.content {
+
+    p + p {
+        margin: 1rem 0;
+    }
+
+    h3 {
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+
+    a {
+        color: var(--green-500);
+        font-weight: 500;
+    }
+}
+
+.newsletter {
+  max-width: 1280px;
+  padding: 0 2rem;
+
+  margin: 8.875rem auto;
+}
+
+.author {
+    max-width: 21.8125rem;
+    width: 100%;
+    margin: 0 auto;
+
+    display: grid;
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .authorImage {
+        display: block;
+        margin: 2rem auto;
+
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    span {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .social {
+        margin: 1.875rem 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.875rem;
+
+        a {
+            line-height: 0;
+        }
+
+        svg {
+            font-size: 1.5rem;
+        }
+
+        svg.linkedinLogo {
+            color: var(--linkedin-color);
+        }
+
+        svg.githubLogo {
+            color: var(--black-500);
+        }
+    }
+}
+
+.commentsContainer {
+    margin-top: 5.5625rem;
+
+    h2 {
+        text-align: center;
+    }
+
+    span {
+        margin-top: 0.375rem;
+        display: block;
+        text-align: center;
+
+        color: var(--gray-300);
+    }
+
+    form {
+        max-width: 56.625rem;
+        margin: 4.6875rem auto;
+
+        display: grid;
+        gap: 1.5rem;
+
+        textarea {
+            resize: none;
+
+            height: 13.75rem;
+            border-radius: 0.625rem;
+            border: 1px solid var(--gray-200);
+            padding: 1rem;
+            outline: none;
+
+            &:focus {
+                border: 1px solid var(--green-500);
+            }
+
+            &::placeholder {
+                color: var(--gray-300);
+            }
+        }
+
+        button {
+            margin-left: auto;
+        }
+    }
+
+    ul {
+        max-width: 56.625rem;
+        margin: 4.6875rem auto;
+
+        display: grid;
+        justify-content: center;
+        gap: 3.75rem;
+    }
+}
+
+.commentContentEmpty {
+    border: 1px solid var(--red-500) !important;
+    color: var(--red-500);
+}

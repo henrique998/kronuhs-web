@@ -1,0 +1,41 @@
+.container {
+    width: fit-content;
+
+    margin: 88px auto;
+
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.navLink {
+    color: var(--gray-300);
+    transition: color .1s;
+
+    &:hover {
+        color: var(--green-500);
+    }
+}
+
+.item {
+    display: block;
+
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: var(--white);
+    border: 1px solid var(--gray-300);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: var(--gray-300);
+
+    &:hover {
+        border: 1px solid var(--green-500);
+        color: var(--green-500);
+    }
+}
+
+.pageActive {
+    background-color: var(--green-500);
+    color: var(--white);
+    border: none;
+}
