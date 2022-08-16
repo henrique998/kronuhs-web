@@ -1,34 +1,103 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="kronuhs-hero.png" width="100%" />
+  <h3>Blog desenvolvido com as tecnologias mais modernas do momento.</h3>
+</div>
 
-## Getting Started
+## 📃 Sobre
 
-First, run the development server:
+<br />
+
+O Blog **kronuhs** foi desenvolvido tendo como foco utilizar tecnologias atuais como next.js, axios e muito mais.
+
+Esta aplicação permite o leitor interagir por meio de likes e comentários, além de possuir um sistema de authenticação jwt e newsletter.
+
+## 💻 Principais Tecnologias utilizadas no projeto
+
+Este projeto utiliza diversas tecnologias bem legais e úteis que você talvez possa gostar e utilizar em alguns projetos.
+
+- [React](https://pt-br.reactjs.org/)
+- [Next.js](https://nextjs.org/docs)
+- [Typescript](https://www.typescriptlang.org/)
+- [Date-fns](https://date-fns.org/)
+- [Markdown-to-jsx](https://www.npmjs.com/package/markdown-to-jsx)
+- [Nookies](https://www.npmjs.com/package/nookies)
+- [Phosphor-icons](https://phosphoricons.com/)
+- [React-hot-toast](https://react-hot-toast.com/)
+- [React-modal](https://www.npmjs.com/package/react-modal)
+- [Sass](https://sass-lang.com/)
+- [Swiper](https://swiperjs.com/react)
+
+## Funcionalidades
+
+Este projeto possui diversas funcionalidades úteis em um blog que você pode conferir logo abaixo:
+
+- Criação de conta para leitores.
+
+- Sistema de contagem de views
+
+- Sistema de likes
+
+- Sistema de comentário
+
+- Páginação de postagens
+
+- Inscrição em newsletter
+
+- Atualização de imagem de perfil
+
+## Como executar o projeto na sua máquina
+
+<br />
+
+Para executar o projeto você terá de seguir os passos listados abaixo. 
+
+Primeiro clone o repositório do projeto com o comando:
+
+<br />
+
+```bash
+git clone git@github.com:henrique998/kronuhs-api.git
+```
+
+Execute um dos comando abaixo para instalar as dependências do projeto:
+
+```bash
+npm install
+# OU
+yarn install
+```
+
+<br />
+
+Agora está tudo pronto para iniciar o projeto. execute o comando abaixo para iniciar o servidor:
+
+<br />
 
 ```bash
 npm run dev
-# or
+# OU
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Aviso
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Primeiro**: Lembre-se de clonar a api abaixo, instalar as depências e iniciar o servidor. você pode conferir mais detalhes em: 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Kronuhs-api](https://github.com/henrique998/kronuhs-api)
 
-## Learn More
+**Segundo**: Esta frontend web está atrelado a dois projetos no total, uma api (citada no passo anterior) e um painel de gestão, escrito também em [Next.js](https://nextjs.org/docs)
 
-To learn more about Next.js, take a look at the following resources:
+Você pode encontrar o painel de gestão em:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Kronuhs-dashboard](https://github.com/henrique998/kronuhs-dashbord)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contato
 
-## Deploy on Vercel
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Entre em contato comigo por email ou no linkedin:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- henriquemonteiro037@gmail.com
+- [linkedin](https://www.linkedin.com/in/henrique-monteiro1/)

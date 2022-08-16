@@ -187,7 +187,7 @@ export const getServerSideProps: GetServerSideProps = async ctx => {
     });  
   
   const mostSeenPosts = response.data.postsResponse
-    .filter(post => post._count.views >= 1)
+    .filter(post => post._count.views >= 100)
     .slice(0, 10)
     .map(post => {
       return {
