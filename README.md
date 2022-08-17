@@ -56,7 +56,7 @@ Primeiro clone o repositório do projeto com o comando:
 <br />
 
 ```bash
-git clone git@github.com:henrique998/kronuhs-api.git
+git clone git@github.com:henrique998/kronuhs-web.git
 ```
 
 Execute um dos comando abaixo para instalar as dependências do projeto:
@@ -87,7 +87,7 @@ yarn dev
 
 - [Kronuhs-api](https://github.com/henrique998/kronuhs-api)
 
-**Segundo**: Esta frontend web está atrelado a dois projetos no total, uma api (citada no passo anterior) e um painel de gestão, escrito também em [Next.js](https://nextjs.org/docs)
+**Segundo**: Este frontend web está atrelado a dois projetos no total, uma api (citada no passo anterior) e um painel de gestão, escrito também em [Next.js](https://nextjs.org/docs)
 
 Você pode encontrar o painel de gestão em:
 
